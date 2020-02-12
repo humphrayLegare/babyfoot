@@ -13,10 +13,9 @@ export default {
   noticeText: '#fff',
 
   //humphray's define theme
-  mainColor: #AF74B3,
-  mainColorSecond: #C87ACC,
-  mainColorThird:#FFEDB3,
-  mainColorFourth:#CCFFF5,
-  mainColorFifth:#B3A26B,
-
+  mainColor: '#AF74B3',
+  mainColorSecond: '#C87ACC',
+  mainColorThird:'#FFEDB3',
+  mainColorFourth:'#CCFFF5',
+  mainColorFifth:'#B3A26B',
 };
