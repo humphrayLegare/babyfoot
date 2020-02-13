@@ -21,3 +21,7 @@ export default class Account extends React.Component {
         )
     }
 }
+
+const styles = StyleSheet.create({
+
+})

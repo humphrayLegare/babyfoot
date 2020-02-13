@@ -12,6 +12,7 @@ import BottomTabNavigator from './navigation/BottomTabNavigator';
 import useLinking from './navigation/useLinking';
 import HomeScreen from "./screens/HomeScreen";
 import Account from './screens/Account';
+import Hub from './screens/Hub';
 
 const Stack = createStackNavigator();
 
@@ -56,6 +57,7 @@ export default function App(props) {
         <NavigationContainer ref={containerRef} initialState={initialNavigationState}>
           <Stack.Navigator>
             <Stack.Screen name="Home" component={HomeScreen} />
+            <Stack.Screen name="Hub" component={Hub} />
             <Stack.Screen name="Profile" component={Account} />
           </Stack.Navigator>
         </NavigationContainer>

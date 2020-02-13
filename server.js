@@ -9,8 +9,8 @@ export function makeServer({ environment = 'development' } = {}) {
         },
 
         seeds(server) {
-            server.create('user',
-                { username: 'admin', password: 'admin'
+            server.create('users',
+                { username: 'admin', password: 'admin', solo: 34, duo: 76
                 }
             )
         },

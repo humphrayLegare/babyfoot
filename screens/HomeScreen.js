@@ -20,7 +20,7 @@ export default class HomeScreen extends React.Component {
         <View style={styles.container}>
           <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
             <View style={styles.getStartedContainer}>
-              <Image style={{width: '100%', height:'100%'}} source={require('../assets/images/babyfoot.jpg')} />
+              <ImageBackground style={{width: '100%', height:'100%'}} source={require('../assets/images/babyfoot.jpg')} />
               <Login />
             </View>
           </ScrollView>
@@ -69,6 +69,12 @@ function handleHelpPress() {
 }
 
 const styles = StyleSheet.create({
+  loginDiv: {
+    flex:1,
+    backgroundColor: '#fff',
+    padding: 30
+  },
+
   backgroundVideo: {
     position: 'absolute',
     top: 0,
@@ -77,7 +83,7 @@ const styles = StyleSheet.create({
     right: 0,
   },
   container: {
-    flex: 1,
+    flex: 2,
     backgroundColor: '#fff',
   },
   developmentModeText: {

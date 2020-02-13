@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cf8a023-db71-41fb-a52f-b90614b0d4e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/babyfoot.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/libeo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/libeovideo.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ProfileGameResult.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Tag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/trophy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Top.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/Colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/constants/Colors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ProfileGameResult.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ProfileGameResult.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Tag.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Tag.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Account.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Account.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/HomeScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +39,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -87,7 +87,7 @@
       <updated>1581528094139</updated>
       <workItem from="1581528096446" duration="4063000" />
       <workItem from="1581532253941" duration="17951000" />
-      <workItem from="1581554617080" duration="4441000" />
+      <workItem from="1581554617080" duration="14726000" />
     </task>
     <servers />
   </component>
