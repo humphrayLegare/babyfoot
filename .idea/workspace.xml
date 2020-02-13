@@ -1,14 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0cf8a023-db71-41fb-a52f-b90614b0d4e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/babyfoot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/libeo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/libeovideo.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ProfileGameResult.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Tag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants/Colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/constants/Colors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/HomeScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XiTp8IIBkdlpQV0MUBUF8TSzIg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/assets/videos" />
+      <recent name="$PROJECT_DIR$/assets/fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/screens" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
@@ -32,5 +74,40 @@
       <module name="" />
       <method v="2" />
     </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0cf8a023-db71-41fb-a52f-b90614b0d4e1" name="Default Changelist" comment="" />
+      <created>1581528094139</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581528094139</updated>
+      <workItem from="1581528096446" duration="4063000" />
+      <workItem from="1581532253941" duration="17951000" />
+      <workItem from="1581554617080" duration="4441000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="671" y="358" width="628" height="405" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581550020880">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="671" y="358" width="628" height="405" key="#com.intellij.fileTypes.FileTypeChooser/3840.0.1920.1080/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1581550020880" />
+    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1581553759149">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/3840.0.1920.1080/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1581553759149" />
+    <state x="2126" y="247" width="840" height="628" key="find.popup" timestamp="1581557292678">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="617" y="268" width="685" height="544" key="find.popup/0.27.5760.1053@0.27.5760.1053" timestamp="1581531106811" />
+    <state x="206" y="268" width="840" height="612" key="find.popup/3840.0.1920.1080/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1581552758435" />
+    <state x="2126" y="247" width="840" height="628" key="find.popup/3840.0.1920.1080/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1581557292678" />
   </component>
 </project>
