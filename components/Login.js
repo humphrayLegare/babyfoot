@@ -49,9 +49,8 @@ export default class Login extends Component {
         let validatePassword = false;
 
         //modify
-        if(this.state.username === 'admin' && this.state.password === 'admin'){
-            alert('admin');
-
+        if(this.state.username === 'akadri' && this.state.password === 'password'){
+            window.location.href = 'Hub';
         }else {
             alert('Wrong credentials');
             navigation.navigate('Hub')}

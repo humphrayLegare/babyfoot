@@ -8,6 +8,8 @@ import { MonoText } from '../components/StyledText';
 import {NavigationContainer} from '@react-navigation/native';
 // import image from "../assets/images/libeo.jpg"
 
+import FooterNavigator from '../components/FooterNavigator';
+
 export default class HomeScreen extends React.Component {
 
   constructor(props) {
@@ -20,12 +22,12 @@ export default class HomeScreen extends React.Component {
         <View style={styles.container}>
           <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
             <View style={styles.getStartedContainer}>
-              <ImageBackground style={{width: '100%', height:'100%'}} source={require('../assets/images/babyfoot.jpg')} />
+              <Image style={{width: '100%', height:'100%'}} source={require('../assets/images/babyfoot.jpg')} />
               <Login />
             </View>
           </ScrollView>
-
         </View>
+
     );
   }
 

@@ -4,14 +4,14 @@ import { Image, Platform, StyleSheet, Text, TouchableOpacity, View, TextInput, B
 import Tag from "./Tag"
 import {ScrollView} from "react-native-gesture-handler";
 import ProfileGameResult from '../components/ProfileGameResult'
+import FooterNavigator from "../components/FooterNavigator";
 
 
 export default class Profile extends React.Component {
-
     constructor(props) {
         super(props);
         this.state = {
-            username : "John Doe",
+            username : "Ahmed Kadri",
             tag: 'solo'
         }
     }
@@ -34,6 +34,7 @@ export default class Profile extends React.Component {
                         </div>
                     </div>
                     <ProfileGameResult username={this.state.username} tag={this.state.tag}/>
+                    <FooterNavigator />
                 </ScrollView>
             </View>
         )

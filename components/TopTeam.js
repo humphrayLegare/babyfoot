@@ -19,12 +19,12 @@ export default class Profile extends React.Component {
 
 
 
-    getSoloTop3 = () => {
+    getDuoTop3 = () => {
         return (
             [
-                {id:1, playerName: 'Ahmed Kadri', totalSoloWin: 22},
-                {id:2, playerName: 'charles Gauthier', totalSoloWin: 20},
-                {id:3, playerName: 'Pierre Boivin', totalSoloWin: 16}
+                {id:1, teamName:'The beauty and The Beast', firstPlayer: this.state.username, secondPlayer: 'Cesar', totalWin: 12},
+                {id:2, teamName:'Montreal Beasts', firstPlayer: this.state.username, secondPlayer: 'Alexandre Limoge', totalWin: 6},
+                {id:3, teamName:'Show me Your Ball', firstPlayer: this.state.username, secondPlayer: 'Philippe Gilbert', totalWin: 5},
             ]
         )
 
@@ -33,12 +33,14 @@ export default class Profile extends React.Component {
     render() {
 
         let trophyColors = ['#ffc107', 'silver', '#ff9933'];
-        let soloTop3 = this.getSoloTop3().map((item) => {
+
+        let duoTop3 = this.getDuoTop3().map((item) => {
             return (
-                <p>
+                <p key={item.id}>
                     <span><FontAwesomeIcon icon={ faTrophy } style={{color: trophyColors[item.id - 1]}}/></span><span>{item.id} </span>
-                    <span>{item.playerName}</span>
-                    <span className="badge badge-success"> Win: {item.totalSoloWin}</span>
+                    <span className="badge badge-info">{item.teamName}</span>
+                    <span>{item.firstPlayer}</span><span>{item.secondPlayer}</span>
+                    <span className="badge badge-success"> Win: {item.totalWin}</span>
                 </p>
             )
         })
@@ -47,9 +49,8 @@ export default class Profile extends React.Component {
         return(
             <View style={styles.profileView}>
                 <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
-                    <h1>Welcome to the hub</h1>
-                    <h3>Top players</h3>
-                    {soloTop3}
+                    <h3>Top team</h3>
+                    {duoTop3}
                 </ScrollView>
             </View>
         )

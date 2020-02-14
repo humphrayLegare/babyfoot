@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cf8a023-db71-41fb-a52f-b90614b0d4e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/trophy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/FooterNavigator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/TopTeam.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/ProfileGameResult.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ProfileGameResult.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Tag.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Tag.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/Account.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Account.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Top.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Top.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigation/BottomTabNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/BottomTabNavigator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/HomeScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Hub.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Hub.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +85,7 @@
       <updated>1581528094139</updated>
       <workItem from="1581528096446" duration="4063000" />
       <workItem from="1581532253941" duration="17951000" />
-      <workItem from="1581554617080" duration="14726000" />
+      <workItem from="1581554617080" duration="19148000" />
     </task>
     <servers />
   </component>
@@ -103,11 +101,11 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/3840.0.1920.1080/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1581553759149" />
-    <state x="2126" y="247" width="840" height="628" key="find.popup" timestamp="1581557292678">
+    <state x="2126" y="247" width="840" height="628" key="find.popup" timestamp="1581613023094">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="617" y="268" width="685" height="544" key="find.popup/0.27.5760.1053@0.27.5760.1053" timestamp="1581531106811" />
     <state x="206" y="268" width="840" height="612" key="find.popup/3840.0.1920.1080/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1581552758435" />
-    <state x="2126" y="247" width="840" height="628" key="find.popup/3840.0.1920.1080/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1581557292678" />
+    <state x="2126" y="247" width="840" height="628" key="find.popup/3840.0.1920.1080/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1581613023094" />
   </component>
 </project>

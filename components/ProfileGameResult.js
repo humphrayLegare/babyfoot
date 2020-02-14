@@ -52,9 +52,9 @@ export default class ProfileGameResult extends React.Component {
     getTeams = () => {
         return (
             [
-                {id:1, teamName:'The beauty and The Beast', firstPlayer: this.state.username, secondPlayer: 'Cesar', totalWin: 5},
-                {id:2, teamName:'Montreal Beasts', firstPlayer: this.state.username, secondPlayer: 'Alexandre Limoge', totalWin: 5},
-
+                {id:1, teamName:'The beauty and The Beast', firstPlayer: this.state.username, secondPlayer: 'Cesar', totalWin: 12},
+                {id:2, teamName:'Montreal Beasts', firstPlayer: this.state.username, secondPlayer: 'Alexandre Limoge', totalWin: 6},
+                {id:3, teamName:'Show me Your Ball', firstPlayer: this.state.username, secondPlayer: 'Philippe Gilbert', totalWin: 5},
             ])
     }
 
@@ -73,7 +73,7 @@ export default class ProfileGameResult extends React.Component {
 
         let results = this.getResults().reverse().map((item) => {
             return (
-                <li  className={ item.mainPlayerScore > item.otherPlayerScore ? "alert alert-success" : 'alert alert-danger'}>
+                <li  key={item.id} className={ item.mainPlayerScore > item.otherPlayerScore ? "alert alert-success" : 'alert alert-danger'}>
                     <span>{item.id} </span>
                     <span>Score: {item.mainPlayerScore} : {item.otherPlayerScore}</span>
                     <span>against: {item.otherPlayer}</span>

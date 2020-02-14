@@ -11,13 +11,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 import Top from '../components/Top';
+import TopTeam from '../components/TopTeam';
+import FooterNavigator from "../components/FooterNavigator";
 
 export default class Hub extends React.Component {
 
     constructor(props) {
         super(props);
         this.state = {
-            username: 'John Doe',
+            username: 'Ahmed Kadri',
             tag: 'solo'
         }
     }
@@ -29,6 +31,10 @@ export default class Hub extends React.Component {
                 <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
                     <View style={styles.divContainer}>
                         <Top name={this.state.username}/>
+                        <TopTeam name={this.state.username}/>
+                    </View>
+                    <View>
+                        <FooterNavigator style={styles.FooterNavigator}/>
                     </View>
                 </ScrollView>
             </View>
@@ -41,7 +47,7 @@ export default class Hub extends React.Component {
 
 const styles = StyleSheet.create({
     container: {
-        flex: 2,
+        flex: 1,
         backgroundColor: '#fff',
     },
 
@@ -51,5 +57,8 @@ const styles = StyleSheet.create({
 
     divContainer: {
         backgroundColor: '#fff'
+    },
+    FooterNavigator: {
+        flex:1
     }
 });
